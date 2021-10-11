@@ -11,6 +11,13 @@
     </div>
   <% end %>
 
+  <div>
+
+  <p>Nombre: <%= @pet.name%> </p>
+  <p>Raza: <%= @pet.race%> </p>
+  <p>Cumpleaños: <%= @pet.birthdate%> </p>
+  </div>
+
   <div class="field">
     <%= form.label :weight %>
     <%= form.text_field :weight %>
